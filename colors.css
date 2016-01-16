@@ -1,0 +1,71 @@
+body {
+	background-color: #232323;
+	margin : 0;
+	font-family: "Arial", "Avenir", "Montserrat";
+}
+
+.square {
+	width: 29%;
+	background: white;
+	padding-bottom: 30%;
+	margin: 1.66%;
+	float: left;
+/*	border: 1px solid white;
+*/	border-radius: 10%;
+	transition: background-color 1.0s;
+	-webkit-transition: background-color 1.0s;
+	-moz-transition: background-color 1.0s;
+}
+
+#container {
+	max-width: 600px;
+	margin : 20px auto;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	background-color: steelblue;
+	margin: 0;
+	line-height: 1.1;
+	padding: 20px 0;
+}
+
+#menu {
+	background: white;
+	height: 30px;
+	text-align: center;
+	color: black;
+}
+
+#pickedColor {
+	text-transform: uppercase;
+	font-size: 200%;
+}
+
+#resultaat {
+	display: inline-block;
+	width: 10%;
+}
+
+.selected {
+	background-color: steelblue;
+	color : white;
+}
+
+button {
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	letter-spacing: 1px;
+	font-size: inherit;
+	color: steelblue;
+	transition: all .3s;
+}
+
+button:hover {
+	color:white;
+	background-color: steelblue;
+}
